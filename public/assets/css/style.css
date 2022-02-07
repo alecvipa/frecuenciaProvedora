@@ -92,6 +92,11 @@
 .logoPriv{
     margin-top: 7%;
 }
+.contactoCont{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 
 @media(min-width:992px){
     .navbarInicio{
@@ -99,6 +104,11 @@
     }
 }
 @media(max-width:991px){
+
+    .privacidadBanner{
+        height: 13rem;
+        margin-bottom: 5%;
+    }
     .expoMar{
         margin-top: 6%;
     }
