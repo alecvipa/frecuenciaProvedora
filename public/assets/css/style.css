@@ -1,12 +1,7 @@
-.fonts{
-    font-family: 'Arimo', sans-serif;
- font-family: 'Inter', sans-serif;
- font-family: 'Josefin Sans', sans-serif;
- font-family: 'Nunito Sans', sans-serif;
- font-family: 'Open Sans', sans-serif;
- font-family: 'Raleway', sans-serif;
- font-family: 'Roboto', sans-serif;
- font-family: 'Work Sans', sans-serif;
+
+.fonts3{
+    font-family: 'ABeeZee', sans-serif !important;
+
 }
 .fontWeight{
     font-weight: bolder !important;
@@ -20,16 +15,109 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.privacidadBanner{
+    height: 20rem;
+    background-image: url("/assets/images/logisticas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.misionDiv{
+    height: 20.5rem;
+    /* background-image: url("/assets/images/frecuencia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgb(240, 238, 238);
+}
+.mision{
+    /* background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 8px; */
+    padding: 3%;
+    margin-top: 3%;
+}
 .colorBlack{
     color: black;
 }
+.imports{
+    height: 15rem;
+    background-image: url("/assets/images/imports.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.almacenamiento{
+    height: 15rem;
+    background-image: url("/assets/images/almacenamiento.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+}
+.logistica{
+    height: 15rem;
+    background-image: url("/assets/images/logistica.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+}
+.titleService, .titleServiceLg{
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 2%;
+    margin-top: 20%;
+    border-radius: 8px;
+}
+.collapsServ, .collapsServTwo, .collapsServTr{
+    display: none;
+}
+.service:hover .collapsServ{
+    display: block;
+}
+.serviceTwo:hover .collapsServTwo{
+    display: block;
+}
+.serviceTr:hover .collapsServTr{
+    display: block;
+}
+.logoPriv{
+    margin-top: 7%;
+}
+
 @media(min-width:992px){
     .navbarInicio{
         font-size: 20px;
     }
 }
 @media(max-width:991px){
+    .expoMar{
+        margin-top: 6%;
+    }
     .bridge{
         margin-bottom: 10%;
+    }
+    .misionDiv{
+        height: 24rem;
+    }
+    .mision{
+        margin-top: 14%;
+    }
+    .titleMision{
+        font-size: 33px;
+    }
+    .paraMision{
+        font-size: 19px;
+    }
+    .titleServiceLg{
+        margin-top: 7%;
     }
 }
