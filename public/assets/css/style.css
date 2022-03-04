@@ -1,6 +1,6 @@
 
 .fonts3{
-    font-family: 'ABeeZee', sans-serif !important;
+    font-family: 'Nunito Sans', sans-serif !important;
 
 }
 .fontWeight{
@@ -15,6 +15,7 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
 .overlay{
     height: 100%;
     width: 100%;
@@ -114,13 +115,28 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.valueP{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(53, 33, 33, 0.829);
+    border-radius: 8px;
+    padding: 2%;
+}
 
 @media(min-width:992px){
     .navbarInicio{
         font-size: 20px;
     }
+    .navBarUl{
+        margin-left: -33%;
+        margin-bottom: 2%;
+    }
 }
 @media(max-width:991px){
+    .imageWiRes{
+        max-width: 93% !important;
+    }
     .valuePara{
         margin-bottom: 10%;
     }

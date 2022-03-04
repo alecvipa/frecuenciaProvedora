@@ -20,6 +20,7 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
+    "mdb-ui-kit": "^3.10.2",
     "nodemailer": "^6.7.2"
   }
 }

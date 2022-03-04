@@ -22,9 +22,10 @@
     <link rel="shortcut icon" href="assets/images/logoCapital.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Bree+Serif&family=Inter&family=Josefin+Sans:ital,wght@1,600&family=Nunito+Sans:wght@200&family=Open+Sans&family=Raleway:wght@700&family=Roboto:wght@500&family=Signika:wght@300&family=Work+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link rel="stylesheet" href="/assets/css/mdb.min.css" />
+
     <script>
         function submitEmailForm(form) {
             var obj = new XMLHttpRequest();
@@ -41,7 +42,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, number: form.number.value}));
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, number: form.number.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -105,6 +106,8 @@
     </div>
 
     <script src="/assets/js/script.js"></script>
+    <!-- MDB -->
+  <script type="text/javascript" src="/assets/js/mdb.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
