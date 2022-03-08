@@ -123,8 +123,34 @@
     border-radius: 8px;
     padding: 2%;
 }
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.cardTextScroll{
+  height: 150px;
+  overflow: scroll;
+}
+.bgDiv{
+    background-color: #e0d5ca;
+}
+.pointer {
+    cursor: pointer;
+}
+@media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
 
 @media(min-width:992px){
+    .bgDiv{
+        padding-bottom: 0.5%;
+    }
     .navbarInicio{
         font-size: 20px;
     }
