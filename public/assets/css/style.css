@@ -164,6 +164,11 @@
     }
 }
 @media(max-width:991px){
+    .inicioBanner{
+        height: 40rem;
+        background-position: 62% 41%;
+    
+    }
     .bgDiv{
         margin-bottom: -17%;
     }
